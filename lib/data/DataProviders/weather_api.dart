@@ -1,5 +1,5 @@
 import 'dart:html';
-import 'package:weather_app_2/DataLayer/Model/models.dart';
+import 'package:weather_app_2/data/Model/models.dart';
 
 class WeatherApi {
   get http => null;
