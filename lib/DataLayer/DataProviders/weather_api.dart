@@ -5,12 +5,12 @@ class WeatherApi {
   get http => null;
 
   Future<RawWeather> getRawWeather(String city) async {
-    RawWeather rowWeather = await http.elementAtOrNull('index');
+    RawWeather rowWeather =  http.elementAtOrNull('index');
     return rowWeather;
   }
 
   Future<RawWeather> getWeatherForCity(Location loc) async {
-    RawWeather rowWeather = await http.elementAtOrNull('index');
+    RawWeather rowWeather = http.elementAtOrNull('index');
     return rowWeather;
   }
 }

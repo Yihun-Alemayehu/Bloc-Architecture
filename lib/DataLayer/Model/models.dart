@@ -8,4 +8,6 @@ class Weather {
     required this.windSpeed,
     required this.cityName,
   });
+
+  static Weather fromJson(Type rawWeather) {}
 }
